@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="614982a0-72fb-4f88-b0c1-45a9f739db06" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/Myrror.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Myrror/platforms/browser/www/css/loadingscreen.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Myrror/platforms/browser/www/css/login.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Myrror/platforms/browser/www/css/reset.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Myrror/platforms/browser/www/img/logo.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Myrror/platforms/browser/www/pages/loadingscreen.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Myrror/platforms/browser/www/pages/login.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Myrror/www/img/logo.jpg" />
-    </list>
+    <list default="true" id="614982a0-72fb-4f88-b0c1-45a9f739db06" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -117,7 +104,7 @@
     <handled-path value="$PROJECT_DIR$/../../webtechnologie/node js/woonwinkel/node_modules" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="386" />
     <option name="y" value="-29" />
     <option name="width" value="976" />
@@ -307,7 +294,7 @@
     <option name="totallyTimeSpent" value="32602000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28464016" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
