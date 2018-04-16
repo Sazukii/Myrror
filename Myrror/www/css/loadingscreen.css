@@ -2,8 +2,6 @@
     background-color: #ff3e3d;
     height: 100vh;
     width: 100vw;
-    overflow-x: hidden;
-    overflow-y: hidden;
 }
 img {
     position: absolute;
@@ -15,20 +13,22 @@ img {
     width: 250px;
     height: 250px;
     animation: loading 2s ease-in-out infinite;
-    overflow-x: hidden;
-    overflow-y: hidden;
 }
 @keyframes loading {
     0% {
         transform: scale(0.8);
+        /* transform: scale(1); */
     }
     40% {
         transform: scale(1);
+        /* transform: scale(1.2); */
     }
     50% {
         transform: scale(1);
+        /* transform: scale(1.2); */
     }
     100% {
         transform: scale(0.8);
+        /* transform: scale(1); */
     }
 }
