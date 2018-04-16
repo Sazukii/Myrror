@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../../webtechnologie/DeviceInfo/.idea/DeviceInfo.iml" filepath="$PROJECT_DIR$/../../webtechnologie/DeviceInfo/.idea/DeviceInfo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Myrror.iml" filepath="$PROJECT_DIR$/.idea/Myrror.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../webtechnologie/fun/.idea/fun.iml" filepath="$PROJECT_DIR$/../../webtechnologie/fun/.idea/fun.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../webtechnologie/node js/middleware1/.idea/middleware1.iml" filepath="$PROJECT_DIR$/../../webtechnologie/node js/middleware1/.idea/middleware1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../webtechnologie/fun/shitcardgame/.idea/shitcardgame.iml" filepath="$PROJECT_DIR$/../../webtechnologie/fun/shitcardgame/.idea/shitcardgame.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../webtechnologie/node js/woonwinkel/.idea/woonwinkel.iml" filepath="$PROJECT_DIR$/../../webtechnologie/node js/woonwinkel/.idea/woonwinkel.iml" />
+    </modules>
+  </component>
+</project>
