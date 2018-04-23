@@ -1,13 +1,30 @@
 #banner{
     background-color: #ff3e3d;
     width: 100vw;
-    height:12vh;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+#banner > div {
+    /* border: 1px solid black; */
 }
 img {
-    width: 20vw;
-
+    height: 20px;
+    margin: 10px;
+    align-self: center;
 }
 h1{
+    flex: 6;
     color: #ffffff;
     font-family: 'Montserrat', sans-serif;
+    align-self: center;
+    text-align: center;
+}
+.menu_icon{
+    flex: 2;
+    height: inherit;    
+    justify-content: center;
+    align-content: center;
+    display: flex;
 }
