@@ -7,7 +7,7 @@
     align-items: center;
 }
 #logo {
-    width: 200px;
+    width: 150px;
     padding-bottom: 40px;
 }
 #content {
@@ -45,7 +45,7 @@ a:active {
 input {
     background-color: transparent;
     border: none;
-    width: 300px;
+    width: 250px;
     font-size: 20px;
     color: white;
     border-bottom: 1px white solid;
@@ -66,17 +66,19 @@ input {
     background-size: 30px 20px;
     border-bottom: white 1px solid;
 }
+#remember {
+    float: left;
+    font-size: 13px;
+    font-family: 'Montserrat';
+}
 
+/* toggle button */
 .switch {
     position: relative;
     display: block;
     width: 30px;
     height: 17px;
     margin-bottom: 5px;
-  }
-  .switch::after{
-    content: 'Remember me';
-    text-align: unset;
   }
   
   .switch input {display:none;}
@@ -86,6 +88,9 @@ input {
   
   input:focus + .slider {
     box-shadow: 0 0 1px white;
+  }
+  ::-webkit-input-placeholder{
+      color: rgb(220, 220, 220);
   }
   .slider {
     position: absolute;
@@ -120,4 +125,4 @@ input {
   }
   .slider.round:before {
     border-radius: 50%;
-  }  
+  }
