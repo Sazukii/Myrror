@@ -13,17 +13,32 @@
 img {
     width: 200px;
 }
-
-button{
+.content-content {
+    padding-top: 30px;
+}
+.content-content > a {
+    display: block;
+    text-decoration: none;
+}
+.button {
     font-family: 'Montserrat';
-    color: #ff3e3d;
     background-color: white;
     width: 250px;
     height: 60px;
     border-radius: 20px;
     border: none;
     font-size: 25px;
+    line-height: 60px;
 }
-.content-content {
-    padding-top: 30px;
+a:link {
+    color: #ff3e3d;
+}
+a:visited {
+    color: #ff3e3d;
+}
+a:hover {
+    color: #ff3e3d;
+}
+a:active {
+    color: #ff3e3d;
 }
