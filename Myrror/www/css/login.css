@@ -2,8 +2,67 @@
     background-color: #ff3e3d;
     height: 100vh;
     width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #logo {
+    width: 200px;
+    padding-bottom: 50px;
+}
+#content {
+    text-align: center;
+}
+#content > div {
+    padding-bottom: 20px;
+}
+.button {
+    font-family: 'Montserrat';
+    background-color: white;
+    width: inherit;
+    height: 60px;
+    border-radius: 20px;
+    border: none;
+    font-size: 25px;
+    line-height: 60px;
+}
+a {
+    display: block;
+    text-decoration: none;
+}
+a:link {
+    color: #ff3e3d;
+}
+a:visited {
+    color: #ff3e3d;
+}
+a:hover {
+    color: #ff3e3d;
+}
+a:active {
+    color: #ff3e3d;
+}
+input {
+    background-color: transparent;
+    border: none;
     width: 300px;
-
+    font-size: 20px;
+    color: white;
+    border-bottom: 1px white solid;
+}
+#email_img{
+    float: right;
+    height: 25px;
+    width: 30px;
+    background: url('../img/E-mail\ icon.png') no-repeat;
+    background-size: 25px 20px;
+    border-bottom: white 1px solid;
+}
+#password_img{
+    float: right;
+    height: 25px;
+    width: 30px;
+    background: url('../img/Eye\ icon.png') no-repeat;
+    background-size: 30px 20px;
+    border-bottom: white 1px solid;
 }
