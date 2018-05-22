@@ -15,13 +15,17 @@
             <div id="content">
             <img src="../img/m.png" id="logo">
                 <div id="email">
-                    <input placeholder="Email">
+                    <input placeholder="Email" type="email">
                     <div  id="email_img"></div>
                 </div>
                 <div id="password">
-                    <input placeholder="Password">
+                    <input placeholder="Password" type="password">
                     <div id="password_img"></div>
                 </div>
+                <label class="switch">
+                    <input type="checkbox">
+                    <span class="slider round"></span>
+                </label>
                 <a href="login.html">
                         <div class="button">
                             Login
@@ -30,4 +34,9 @@
             </div>
         </div>
     </body>
+    <script>
+        document.getElementById('password_img').addEventListener('click', function(){
+            
+        });
+    </script>
 </html>
