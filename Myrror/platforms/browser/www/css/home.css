@@ -12,10 +12,13 @@ body {
     top: -1px;
     box-shadow: 0px 1px 2px 1px gray;
 }
+.menu_icon > a {
+    align-self: center;
+}
 img {
     height: 20px;
     margin: 10px;
-    align-self: center;
+    
 }
 h1{
     flex: 6;
