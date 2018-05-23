@@ -100,6 +100,7 @@ input {
     right: 0;
     bottom: 0;
     background-color: white;
+    /* border: 1px solid white; */
     -webkit-transition: .4s;
     transition: .4s;
   }
@@ -126,3 +127,11 @@ input {
   .slider.round:before {
     border-radius: 50%;
   }
+  #remember{
+    float: left;
+  }
+  @media only screen and (max-width: 600px) {
+    .login_img {
+        margin-top: 1px;
+    }
+}
