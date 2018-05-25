@@ -6,6 +6,12 @@
     justify-content: center;
     align-items: center;
 }
+#back {
+    width: 30px;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
 #logo {
     width: 150px;
     padding-bottom: 40px;
@@ -49,6 +55,9 @@ input {
     font-size: 20px;
     color: white;
     border-bottom: 1px white solid;
+}
+input:focus{
+    outline: none;
 }
 #email_img{
     float: right;
