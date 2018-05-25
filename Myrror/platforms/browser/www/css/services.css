@@ -91,11 +91,13 @@ h1{
     height: 50px;
     border-bottom: 1px solid #ff3e3d;
     font-family: 'Montserrat';
-    padding-left: 30px;
+    font-weight: bold;
+    padding-left: 10px;
     line-height: 50px;
+    margin: 20px;
 }
 #categorie_list > a {
     text-decoration: none;
     display: block;
-    color: #ff3e3d;
+    color: black;
 }
