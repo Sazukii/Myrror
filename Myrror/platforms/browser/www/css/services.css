@@ -94,30 +94,8 @@ h1{
     padding-left: 30px;
     line-height: 50px;
 }
-#browse {
-    background-color: grey;
-    text-align: center;
-    border-bottom: none;
-    height: 50px;
-    font-family: 'Montserrat';
-    line-height: 50px;
-    font-weight: bold;
-}
 #categorie_list > a {
     text-decoration: none;
     display: block;
     color: #ff3e3d;
-}
-#sale{
-    height: 50px;
-    font-family: 'Montserrat';
-    padding-left: 30px;
-    line-height: 50px;
-    color: white;
-    background-color: #ff3e3d;
-}
-
-#categorie_list > #sale {
-    text-decoration: none;
-    color: white;
 }
