@@ -2,59 +2,154 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="format-detection" content="telephone=no" />
-    <meta name="msapplication-tap-highlight" content="no" />
-    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
-    <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="msapplication-tap-highlight" content="no"/>
+    <meta name="viewport"
+          content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width"/>
+    <meta http-equiv="Content-Security-Policy"
+          content="default-src * 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css"
+          integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
     <title>Home</title>
-    <link rel="stylesheet" type="text/css" href="../css/reset.css" />
-    <link rel="stylesheet" type="text/css" href="../css/home.css">
+    <link rel="stylesheet" type="text/css" href="../css/reset.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/cart.css">
     <link href="https://fonts.googleap  is.com/css?family=Montserrat" rel="stylesheet">
     <script src="../js/scroll_shadow.js"></script>
+    <script src="../js/cart.js"></script>
 </head>
 <body>
+<div id="content">
+    <body>
     <div id="container">
-      <div id="banner">
-        <div class="menu_icon">
-            <a href="home.html">
-                <img src="../img/M.png">
-            </a>
-        </div>
-        <h1>Cart</h1>
-        <div class="menu_icon">
-            <img src="../img/search.png">
-        </div>
-      </div>
-      <div id="content">
-                <div id="placeholder"></div>
+        <div id="banner">
+            <div class="menu_icon">
+                <a href="home.html">
+                    <img src="../img/M.png">
+                </a>
             </div>
+            <h1>cart</h1>
+            <div class="menu_icon">
+                <img src="../img/search.png">
+            </div>
+        </div>
+        <!--<div id="content">-->
+        <!--<div class="banner_item" id="new_item">-->
+        <!--<span>New Item</span>-->
+        <!--</div>-->
+        <!--<div id="grid_items">-->
+        <!--&lt;!&ndash; start &ndash;&gt;-->
+        <!--<div class="item_img" id="new_item2">-->
+        <!--</div>-->
+        <!--<div class="item_img" id="new_item3">-->
+        <!--</div>-->
+        <!--<div class="item_dis" id="new_item4">-->
+        <!--<p>Jas <br> €59,00</p>-->
+        <!--</div>-->
+        <!--<div class="item_dis" id="new_item5">-->
+        <!--<p>T-shirt <br> €29,00</p>-->
+        <!--</div>-->
+        <!--<div class="item_white" id="new_item6">-->
+        <!--</div>-->
+        <!--<div class="item_white" id="new_item7">-->
+        <!--</div>-->
+        <!--<div class="item_img" id="new_item8">-->
+        <!--</div>-->
+        <!--<div class="item_img" id="new_item9">-->
+        <!--</div>-->
+        <!--<div class="item_dis" id="new_item10">-->
+        <!--<p>Pet<br> €19,00</p>-->
+        <!--</div>-->
+        <!--<div class="item_dis" id="new_item11">-->
+        <!--<p>T-shirt <br> €29,00</p>-->
+        <!--</div>-->
+        <!--&lt;!&ndash; end &ndash;&gt;-->
+        <!--<div id="placeholder"></div>-->
+        <!--</div>-->
+        <!--</div>-->
+        <div class="shopping-cart">
+
+            <!-- Product #1 -->
+            <div class="item">
+                <div class="buttons">
+                    <span class="delete-btn"></span>
+                </div>
+
+                <div class="image">
+                    <img src="../img/WhatsApp%20Image%202018-05-25%20at%2013.12.57.jpeg" alt="" class="" style="width: 20vw"/>
+                </div>
+
+                <div class="description">
+                    <span>T shirt wit</span>
+                </div>
+
+                <div class="quantity">
+                    <button class="minus-btn" type="button" name="button" onclick="decreaseValue()">
+                        -
+                    </button>
+                    <input type="text" name="name" value="1" id="number">
+                    <button class="plus-btn" type="button" name="button" onclick="increaseValue()">
+                        +
+                    </button>
+                </div>
+
+                <div class="total-price">€ 29,-</div>
+            </div>
+
             <nav id="nav">
-                <a href="home.html"  id="home" class="menu_item">
+                <a href="home.html" id="home" class="menu_item">
+                    <div>
+                        <img src="../img/Home icon.png" class="menu_img">
+                        <p class="menu_text">Home</p>
+                    </div>
+                </a>
+                <a href="categories.html" id="categories" class="menu_item">
+                    <div>
+                        <img src="../img/Categories icon.png" class="menu_img">
+                        <p class="menu_text">Categories</p>
+                    </div>
+                </a>
+                <a href="cart.html" id="cart" class="menu_item">
+                    <div>
+                        <img src="../img/Cart icon.png" class="menu_img">
+                        <p class="menu_text">Cart</p>
+                    </div>
+                </a>
+                <a href="services.html" class="menu_item">
+                    <div id="services">
+                        <img src="../img/Service icon.png" class="menu_img" id="services_icon">
+                        <p class="menu_text">Services</p>
+                    </div>
+                </a>
+            </nav>
+        </div>
+        <div id="placeholder"></div>
+    </div>
+    <nav id="nav">
+        <a href="home.html" id="home" class="menu_item">
             <div>
                 <img src="../img/Home icon.png" class="menu_img">
                 <p class="menu_text">Home</p>
             </div>
-            </a>
-            <a href="categories.html"  id="categories" class="menu_item">
+        </a>
+        <a href="categories.html" id="categories" class="menu_item">
             <div>
                 <img src="../img/Categories icon.png" class="menu_img">
                 <p class="menu_text">Categories</p>
             </div>
-            </a>
-            <a href="cart.html" id="cart" class="menu_item">
+        </a>
+        <a href="cart.html" id="cart" class="menu_item">
             <div>
                 <img src="../img/Cart icon.png" class="menu_img">
                 <p class="menu_text">Cart</p>
             </div>
-            </a>
-            <a href="services.html" class="menu_item">
-            <div  id="services">
+        </a>
+        <a href="services.html" class="menu_item">
+            <div id="services">
                 <img src="../img/Service icon.png" class="menu_img" id="services_icon">
                 <p class="menu_text">Services</p>
             </div>
-            </a>
-        </nav>
-    </div>
+        </a>
+    </nav>
+</div>
 </body>
 </html>
