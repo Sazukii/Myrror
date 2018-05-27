@@ -5,11 +5,11 @@ $password = "root";
 $dbnaam = "myrror";
 
 // Create connection
-$conn = new mysqli($servername, $username, $password);
+$mysqli = new mysqli($servername, $username, $password, $dbnaam);
 
 // Check connection
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
+if($mysqli === false){
+    die("ERROR: Could not connect. " . $mysqli->connect_error);
 }
 echo "Connected successfully";
 ?>
