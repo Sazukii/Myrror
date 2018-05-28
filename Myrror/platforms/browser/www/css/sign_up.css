@@ -63,6 +63,9 @@ input {
     color: white;
     border-bottom: 1px white solid;
 }
+::-webkit-input-placeholder{
+    color: #f7a0a0;
+}
 input:focus{
     outline: none;
 }

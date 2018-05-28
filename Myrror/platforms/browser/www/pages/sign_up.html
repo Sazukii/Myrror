@@ -21,11 +21,11 @@
                 <div class="login_img"  id="email_img"></div>
             </div>
             <div class="password">
-                <input placeholder="Password" type="password" class="password_input">
+                <input placeholder="Password" type="password" class="password_input" id="password_input">
                 <div class="login_img" id="password_img"></div>
             </div>
             <div class="password">
-                <input placeholder="Confirm Password" type="password" class="password_input">
+                <input placeholder="Confirm Password" type="password" class="password_input" id="password_confirm_input">
                 <div class="login_img" id="password_confirm_img"></div>
             </div>
             <a href="login.html">
@@ -36,4 +36,22 @@
         </div>
     </div>
     </body>
+    <script>
+        document.getElementById('password_img').addEventListener('click', function(){
+            var x = document.getElementById("password_input");
+            if (x.type === "password") {
+                x.type = "text";
+            } else {
+                x.type = "password";
+            }
+        });
+        document.getElementById('password_confirm_img').addEventListener('click', function(){
+            var y = document.getElementById("password_confirm_input");
+            if (y.type === "password") {
+                y.type = "text";
+            } else {
+                y.type = "password";
+            }
+        });
+    </script>
 </html>

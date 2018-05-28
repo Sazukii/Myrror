@@ -59,6 +59,12 @@ input {
 input:focus{
     outline: none;
 }
+::-webkit-input-placeholder{
+    color: #f7a0a0;
+}
+input::placeholder {
+    color: #f7a0a0;
+}
 #email_img{
     float: right;
     height: 25px;
