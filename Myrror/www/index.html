@@ -35,7 +35,7 @@
     <script>
         $("#loginButton").click(function(){
             let email= $.trim($("#email").val());
-            let password= $.trim($("#wachtwoord").val());
+            let wachtwoord= $.trim($("#wachtwoord").val());
             $("#status").text("Authenticating...");
             let loginString ="email="+email+"&wachtwoord="+wachtwoord+"&login=";
             $.ajax({

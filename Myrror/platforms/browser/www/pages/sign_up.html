@@ -38,7 +38,7 @@
     </body>
     <script>
         document.getElementById('password_img').addEventListener('click', function(){
-            var x = document.getElementById("password_input");
+            let x = document.getElementById("password_input");
             if (x.type === "password") {
                 x.type = "text";
             } else {
@@ -46,12 +46,33 @@
             }
         });
         document.getElementById('password_confirm_img').addEventListener('click', function(){
-            var y = document.getElementById("password_confirm_input");
+            let y = document.getElementById("password_confirm_input");
             if (y.type === "password") {
                 y.type = "text";
             } else {
                 y.type = "password";
             }
+        });
+
+        $("#registerButton").click(function(){
+            let email= $.trim($("#email").val());
+            let password= $.trim($("#password").val());
+
+            $("#status").text("Creating New Account...");
+            let dataString="email="+email+"&password="+password+"&register=";
+            $.ajax({
+                type: "POST",crossDomain: true, cache: false,
+                url: url,
+                data: dataString,
+                success: function(data){
+                    if(data === "success")
+                        $("#status").text("Registered success");
+                    else if( data === "exist")
+                        $("#status").text("Account is already there");
+                    else if(data === "error")
+                        $("#status").text("Register Failed");
+                }
+            });
         });
     </script>
 </html>
