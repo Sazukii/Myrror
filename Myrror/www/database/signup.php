@@ -1,26 +1,18 @@
 <?php
-if(isset($_POST['signup']))
-{
-    $fullname=mysqli_escape_string();
-    $email=mysql_real_escape_string(htmlspecialchars(trim($_POST['email'])));
-    $password=mysql_real_escape_string(htmlspecialchars(trim($_POST['password'])));
-    $login=mysql_num_rows(mysql_query("select * from `phonegap_login` where `email`='$email'"));
-    if($login!=0)
-    {
-        echo "exist";
-    }
-    else
-    {
-        $date=date("d-m-y h:i:s");
-        $q=mysql_query("insert into `phonegap_login` (`reg_date`,`fullname`,`email`,`password`) values ('$date','$fullname','$email','$password')");
-        if($q)
-        {
+if (isset($_POST['signup'])) {
+    $register = mysqli_num_rows(mysqli_query($con, "SELECT * FROM `users` WHERE `email`='$email'"));
+    if ($register == 0) {
+        $insert = mysqli_query($con, "INSERT INTO `users` (`email`,`wachtwoord`) VALUES ('$email','$password')");
+        if ($insert)
             echo "success";
-        }
         else
-        {
-            echo "failed";
-        }
-    }
-    echo mysql_error();
+            echo "error";
+    } else if ($register != 0)
+        echo "exist";
+} else if (isset($_POST['login'])) {
+    $login = mysqli_num_rows(mysqli_query($con, "SELECT * FROM `users` WHERE `email`='$email' AND `password`='$password'"));
+    if ($login != 0)
+        echo "success";
+    else
+        echo "error";
 }

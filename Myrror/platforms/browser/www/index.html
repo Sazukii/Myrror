@@ -32,5 +32,29 @@
                 </div>
         </div>
     </div>
+    <script>
+        $("#loginButton").click(function(){
+            let email= $.trim($("#email").val());
+            let password= $.trim($("#wachtwoord").val());
+            $("#status").text("Authenticating...");
+            let loginString ="email="+email+"&wachtwoord="+wachtwoord+"&login=";
+            $.ajax({
+                type: "POST",crossDomain: true, cache: false,
+                url: url,
+                data: loginString,
+                success: function(data){
+                    if(data === "success") {
+                        $("#status").text("Login Success..!");
+                        localStorage.loginstatus = "true";
+                        window.location.href = "welcome.html";
+                    }
+                    else if(data === "error")
+                    {
+                        $("#status").text("Login Failed..!");
+                    }
+                }
+            });
+        });
+    </script>
 </body>
 </html>
