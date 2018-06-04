@@ -16,27 +16,27 @@
     align-self: center;
 }
 #new_item2 {
-    background-image: url('../img/WhatsApp\ Image\ 2018-05-25\ at\ 13.12.56.jpeg');
+    background-image: url('../../img/WhatsApp\ Image\ 2018-05-25\ at\ 13.12.56.jpeg');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
 }
 #new_item3 {
-    background-image: url('../img/WhatsApp\ Image\ 2018-05-25\ at\ 13.12.57\(1\).jpeg');
+    background-image: url('../../img/WhatsApp\ Image\ 2018-05-25\ at\ 13.12.57\(1\).jpeg');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 #new_item8 {
-    background-image: url('../img/WhatsApp\ Image\ 2018-05-25\ at\ 13.12.57\(2\).jpeg');
+    background-image: url('../../img/WhatsApp\ Image\ 2018-05-25\ at\ 13.12.57\(2\).jpeg');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
 
 }
 #new_item9 {
-    background-image: url('../img/WhatsApp\ Image\ 2018-05-25\ at\ 13.12.57.jpeg');
+    background-image: url('../../img/WhatsApp\ Image\ 2018-05-25\ at\ 13.12.57.jpeg');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -56,4 +56,3 @@
 #placeholder {
     height: 100px;
 }
-

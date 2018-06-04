@@ -145,8 +145,8 @@ input::placeholder {
   #remember{
     float: left;
   }
-  @media only screen and (max-width: 600px) {
+  /* @media only screen and (max-width: 600px) {
     .login_img {
         margin-top: 1px;
-    }
-}
+    } */
+/* } */
