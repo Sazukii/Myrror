@@ -1,0 +1,264 @@
+body {
+    overflow-x: hidden;
+}
+#banner{
+    background-color: #ff3e3d;
+    width: 100vw;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    position: sticky;
+    top: -1px;
+}
+.menu_icon > a {
+    align-self: center;
+}
+.menu_icon > a > img {
+    height: 20px;
+    margin: 10px;
+}
+.menu_icon > img {
+    height: 20px;
+    margin: 10px;
+    align-self: center;
+}
+h1{
+    flex: 6;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    align-self: center;
+    text-align: center;
+}
+.menu_icon{
+    flex: 2;
+    height: inherit;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+}
+#nav {
+    position: fixed;
+    bottom: 0;
+    height: 100px;
+    width: 100vw;
+    background-color: white;
+    border-top: 1px solid #ff3e3d;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    z-index: 1;
+}
+.menu_item{
+    flex: 1;
+    margin-top: auto;
+    color: black;
+    text-decoration: none;
+}
+.menu_item:link {
+
+    text-decoration: none;
+}
+.menu_item:hover {
+
+    text-decoration: none;
+}
+.menu_item:visited{
+    text-decoration: none;
+}
+.menu_item:active {
+    text-decoration: none;
+}
+.menu_img{
+    height: 20px;
+    width: auto;
+}
+#services_icon{
+    height: 10px;
+    width: auto;
+}
+.menu_text{
+    bottom: 0;
+    margin-bottom: 25px;
+}
+#content {
+    height: auto;
+    width: 100vw;
+}
+#grid_items{
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-auto-rows: 200px 50px 30px;
+}
+#new_item {
+    display: flex;
+    border-bottom: #ff3e3d 1px solid;
+    justify-content: center;
+    height: 250px;
+}
+#new_item > span {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+    align-self: center;
+}
+#new_item2 {
+    background-image: url('../img/WhatsApp\ Image\ 2018-05-25\ at\ 13.12.56.jpeg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#new_item3 {
+    background-image: url('../img/WhatsApp\ Image\ 2018-05-25\ at\ 13.12.57\(1\).jpeg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#new_item8 {
+    background-image: url('../img/WhatsApp\ Image\ 2018-05-25\ at\ 13.12.57\(2\).jpeg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+#new_item9 {
+    background-image: url('../img/WhatsApp\ Image\ 2018-05-25\ at\ 13.12.57.jpeg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-bottom: 100px;
+}
+.item{
+    display: flex;
+}
+.item_dis {
+    /* border: #ff3e3d 1px solid; */
+    text-align: center;
+}
+.item_img {
+    /* border: #ff3e3d 1px solid; */
+}
+
+.item > img {
+    width: inherit;
+}
+#placeholder {
+    height: 100px;
+}.shopping-cart {
+     width: 750px;
+     height: 423px;
+     margin: 80px auto;
+     background: #FFFFFF;
+     box-shadow: 1px 2px 3px 0px rgba(0,0,0,0.10);
+     border-radius: 6px;
+
+     display: flex;
+     flex-direction: column;
+ }.buttons {
+      position: relative;
+      padding-top: 30px;
+      margin-right: 60px;
+  }
+.delete-btn{
+    display: inline-block;
+    Cursor: pointer;
+}
+.delete-btn {
+    width: 18px;
+    height: 17px;
+    background: url(&quot;delete-icn.svg&quot;) no-repeat center;
+}
+.is-active {
+    animation-name: animate;
+    animation-duration: .8s;
+    animation-iteration-count: 1;
+    animation-timing-function: steps(28);
+    animation-fill-mode: forwards;
+}
+
+@keyframes animate {
+    0%   { background-position: left;  }
+    50%  { background-position: right; }
+    100% { background-position: right; }
+}
+.image {
+    /*margin-right: 50px;*/
+    max-width: 20vw;
+    max-height: 20vh;
+    margin-left: -10vw;
+    margin-right: 10vw;
+}
+
+.description {
+    padding-top: 4vh;
+    margin-right: 20vw;
+    width: 115px;
+    display: flex;
+}
+
+.description span {
+    display: block;
+    font-size: 14px;
+    color: #43484D;
+    font-weight: 400;
+}
+
+.description span:first-child {
+    margin-bottom: 2vh;
+}
+.description span:last-child {
+    font-weight: 300;
+    margin-top: 2vh;
+    color: #86939E;
+}
+.quantity {
+    padding-top: 20px;
+    margin-right: 60px;
+    margin-left: -10vw;
+}
+.quantity input {
+    -webkit-appearance: none;
+    border: none;
+    text-align: center;
+    width: 32px;
+    font-size: 16px;
+    color: #43484D;
+    font-weight: 300;
+}
+
+button[class*=btn] {
+    width: 30px;
+    height: 30px;
+    background-color: #E1E8EE;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+}
+.minus-btn img {
+    margin-bottom: 3px;
+}
+.plus-btn img {
+    margin-top: 2px;
+}
+
+button:focus,
+input:focus {
+    outline:0;
+}
+.total-price {
+    width: inherit;
+    padding-top: 1px;
+    text-align: center;
+    font-size: 16px;
+    color: #43484D;
+    font-weight: 300;
+    margin-left: -28vw;
+    margin-top: 4vh;
+    border: 1px black solid;
+}
+h2{
+    font-weight: bold;
+    margin-top: -2vw;
+}
