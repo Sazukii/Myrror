@@ -1,0 +1,32 @@
+<html>
+<head>
+    <script type="text/javascript" src="../js/jquery.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            var url = "192.168.20.88:3000/phonegap/json/json.php";
+            $.getJSON(url, function (result) {
+                console.log(result);
+                $.each(result, function (i, field) {
+                    var id = field.id;
+                    var title = field.title;
+                    var duration = field.duration;
+                    var price = field.price;
+                    $("#listview").append("<a class='item' href='form.html?id=" + id + "&email=" + email + "&wachtwoord=" + wachtwoord + '><span class='
+                    item - note
+                    '>$"+price+"</span><h2>"+ email + " </h2><p>"+ wachtwoord "</p></a>"'
+                    ;
+                });
+            });
+        });
+    </script>
+</head>
+<body>
+<div>
+    <a href="../index.html" class="button button-clear">Home</a>
+    <h1 class="title">Read Database (JSON)</h1>
+</div>
+<br/><br/>
+<ul class="list" id="listview">
+</ul>
+</body>
+</html>
