@@ -3,14 +3,13 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-}
-table tr td {
-    border: 1px solid black;
+    font-family: 'Montserrat', sans-serif;
 }
 table {
     margin-top: 30px;
     height: auto;
     width: 350px;
+    margin-right: 10px;
 }
 td {
     vertical-align: top;
@@ -36,4 +35,9 @@ input[type=number]::-webkit-outer-spin-button
 }
 .title {
     font-weight: bold;
+}
+.line{
+    z-index: 1;
+    height: 10px;
+    border-bottom: #ff3e3d solid 1px;
 }
