@@ -101,11 +101,11 @@
                         $("#insert").val('Connecting...');
                     },
                     success: function (data) {
-                        if (data == "success") {
+                        if (data === "success") {
                             alert("inserted");
                             $("#insert").val('submit');
                         }
-                        else if (data == "error") {
+                        else if (data === "error") {
                             alert("error");
                         }
                     }
