@@ -13,7 +13,6 @@ hr {
     padding: 0; 
 }
 p {
-    font-size: 0.9em;
     margin-bottom: 20px;
 }
 .h1 {
@@ -24,7 +23,27 @@ p {
     margin-top: 30px;
     margin-bottom: 10px;
 }
-
+#content {
+    margin: 20px;
+}
+#content > span {
+    font-size: 20px;
+}
+.icon {
+    width: 40px;
+    margin-right: 10px;
+}
+table tr td {
+    /* border: 1px solid black; */
+}
+table {
+    width: 400px;
+    height: 100px;
+}
+.icon_table {
+    width: 30px;
+    line-height: 40px;
+}
 #content {
     margin: 20px;
 }

@@ -89,12 +89,9 @@ h1{
 }
 #content {
     height: auto;
+    /* margin: 20px; */
     /* width: 100vw; */
 }
 #placeholder {
     height: 100px;
-}
-
-#content {
-    margin: 20px;
 }
