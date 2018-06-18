@@ -1,0 +1,49 @@
+body {
+    font-family: 'Montserrat';
+}
+
+h2 {
+    font-size: 30px;
+    color: #ff3e3d;
+}
+hr {
+    height: 1px;
+    border: 0;
+    border-top: #ff3e3d 1px solid;
+    padding: 0; 
+}
+p {
+    margin-bottom: 20px;
+}
+.h1 {
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+#content {
+    margin: 20px;
+}
+#content > span {
+    font-size: 20px;
+}
+.icon {
+    width: 40px;
+    margin-right: 10px;
+}
+table tr td {
+    /* border: 1px solid black; */
+}
+table {
+    width: 400px;
+    height: 100px;
+}
+.icon_table {
+    width: 30px;
+    line-height: 40px;
+}
+#content {
+    margin: 20px;
+}

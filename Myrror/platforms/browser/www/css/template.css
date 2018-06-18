@@ -89,5 +89,9 @@ h1{
 }
 #content {
     height: auto;
-    width: 100vw;
+    /* margin: 20px; */
+    /* width: 100vw; */
+}
+#placeholder {
+    height: 100px;
 }

@@ -1,0 +1,21 @@
+body {
+    font-family: 'Montserrat';
+}
+
+h2 {
+    font-size: 30px;
+    color: #ff3e3d;
+}
+hr {
+    height: 1px;
+    border: 0;
+    border-top: #ff3e3d 1px solid;
+    padding: 0; 
+}
+p {
+    font-size: 0.9em;
+    margin-bottom: 20px;
+}
+#content {
+    margin: 20px;
+}
