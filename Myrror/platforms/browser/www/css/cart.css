@@ -1,0 +1,43 @@
+#content {
+    /* margin: 10px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+}
+table {
+    margin-top: 30px;
+    height: auto;
+    width: 350px;
+    margin-right: 10px;
+}
+td {
+    vertical-align: top;
+}
+.product_img {
+    height: 200px;
+}
+input[type=number]{
+    border: 1px solid #ff3e3d;
+    border-radius: 5px;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button
+{
+  -webkit-appearance: none;     
+  margin: 0;
+}
+.quantity{
+    width: 30px;
+}
+.name {
+    width: 100px;
+}
+.title {
+    font-weight: bold;
+}
+.line{
+    z-index: 1;
+    height: 10px;
+    border-bottom: #ff3e3d solid 1px;
+}
